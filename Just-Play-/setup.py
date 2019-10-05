@@ -1,5 +1,6 @@
 import time
 import os
+os.system('sudo apt-get install python3-tk')
 import tkinter as tk
 from tkinter import messagebox
 
