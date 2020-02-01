@@ -17,5 +17,6 @@ message_box('Disclaimer!', 'This program WILL install a third party software... 
 message_box('','The download will start in exactly  4.5 SECONDS')                                                                                                                                                           
 time.sleep(4.5)
 os.system('sudo apt-get install python3-pip')
+os.system('pip install --upgrade pip')
 os.system('pip3 install pygame')
 message_box('Done!','The installation process has completed. You can now run the game.py file and play the full game.')
