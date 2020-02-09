@@ -16,6 +16,7 @@ def message_box(subject, content):
 message_box('Disclaimer!', 'This program WILL install a third party software... Terminate it if you do not want to install it')                                                                                                               
 message_box('','The download will start in exactly  4.5 SECONDS')                                                                                                                                                           
 time.sleep(4.5)
+os.system('sudo apt-get update --fix-missing')
 os.system('sudo apt-get install python3-pip')
 os.system('pip install --upgrade pip')
 os.system('pip3 install pygame')
