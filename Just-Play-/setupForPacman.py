@@ -1,4 +1,4 @@
-#Run this for distros that use pacman
+#This only works for distros that use pacman package manager
 import time
 import os
 os.system('sudo pip3 install tk')
