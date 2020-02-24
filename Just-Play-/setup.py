@@ -1,4 +1,3 @@
-#This is only for operating systems using apt package manager
 import time
 import os
 os.system('sudo apt-get install python3-tk')
